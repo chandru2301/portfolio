@@ -206,11 +206,14 @@ html {
 
 /* Sections */
 .section {
+    background: var(--primary-color);
 color: var(--primary-color);
 padding: 20px;
 margin: 20px 0;
 border-radius: 10px;
-box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: 2px solid var(--accent);
 }
 
 h2 {
